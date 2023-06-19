@@ -26,7 +26,7 @@ const sourceTypes = {
         inputType:'text-line',
         key:'connectionString',
         text:'Connection',
-        placeholder:'Server=192.168.0.1;Port=1433;TDS_Version=7.1;Database=Historian_DB;UID=rtx;PWD=rtx',
+        placeholder:'Server=127.0.0.1;Port=3306;TDS_Version=7.1;Database=Historian_DB;UID=root;PWD=123456',
         helptext: 'ODBC Connection String. Enter the host, port, database, uid, pwd, and any driver-specific options'
       },{
         inputType: 'text-line',
